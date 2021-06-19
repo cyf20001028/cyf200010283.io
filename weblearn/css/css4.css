@@ -1,0 +1,23 @@
+.example-3 {
+    border: 1px dotted black; /* 上下左右都相同 */
+  }
+  .example-4 {
+    border-bottom: 1px solid blue; /* 只设置底部边框 */
+  }
+  .example-5 {
+    border: 1px solid grey;
+    border-radius: 15px; /* 边框圆角 */
+  }
+  .example-6 {
+    border-left: 5px solid purple;
+  }
+  .example-7{
+   font-size: large;
+   text-align:left;
+}
+.example-8{
+  font-size: large;
+  text-align:left;
+  color:crimson;
+}
+ 

@@ -1,0 +1,12 @@
+.example-1 {
+    width: 100%;
+    height:auto;
+    background-color:honeydew;
+    text-align:left;
+  }
+  .example-2 {
+    height: 100px;
+    width: 500px;
+    background-color: rgb(73, 138, 60);
+    text-align: right;
+  }

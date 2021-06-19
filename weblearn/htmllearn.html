@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>html学习总结</title>
+  <link rel="stylesheet" href="css/css1.css">
+  <link rel="stylesheet" href="css/css2.css">
+  <link rel="stylesheet" href="css/css3.css">
+  <link rel="stylesheet" href="css/css4.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="MDB-Pro-4.12/css/bootstrap.min.css">
+  <!-- Material Design Bootstrap -->
+  <link rel="stylesheet" href="MDB-Pro-4.12/css/mdb.min.css">
+  <!-- Your custom styles (optional) -->
+  <link rel="stylesheet" href="MDB-Pro-4.12/css/style.css">
+</head>
+<body>
+    <h1>HTML学习总结</h1>
+    <div >
+<pre class="example-7">
+       经过一周的学习我大致了解了html是用来干什么的，学会制作简单的静态web界面，html功能强大，不同于c++，java等编程语言，它一种标志语言，我们经常去游览的许多精美的网站都是被后靠它制作，
+    它能够使页面包含图片，音乐等非文字元素，能够实现单个或多个网页的链接，可以说学会web开发，学习使用html对未来找工作将会有很大的帮助。要学好web程序的开发，html应该是一个门槛和先修课，
+    精通html是非常有必要的。学习html，首先要了解它的结构，它由各种元素组成，除了DOCTPE，以及<html>标签，主要由两个模块组成，首先是<head>和</head>标签，其包含了页面描述和CSS样式等，其
+    次是<body>和</body>之间的正文部分，包含了网页所出现的一切；html的结构了解起来并不困难，所以在第一周我们重点是学习了对各种标签的使用；在学习当中可以知道html的各个元素的结构基本相同，
+    都有开始、结束标签，内容组成一个元素，但是要注意一些元素只有开始标签。从目前为止我们仅仅是上了一周的html的学习课程，并没有达到精通，仅仅能够制作丑陋的静态web页面。不过个人感觉学习
+    html比c++、java等更容易上手；作为新人，课程网页的代码都能够看得懂。在上周我们从文本格式、超链接、图片、表格、表单等方面学习了html，自己也通过visual studio code慢慢去实践。对html的
+    学习时间是非常的短暂的，尽管老师没做要求，但在课后还是应该主动查阅资料。
+</pre>
+</div>
+<div class="example-1">
+<pre>
+    <h2>1 HTML介绍</h2>
+    <p class="example-7">         HTML是超文本标记语言（HyperText Markup Language）的缩写。我们用 HTML 来构建 Web 页面."超文本"hypertext是指连接单个网站内或多个网站间的网页的链接。链接是网络的一个基本方面。
+    它定义了网页内容的含义和结构。除 HTML 以外的其它技术则通常用来描述一个网页的表现与展示效果（如 CSS），或功能与行为（如 JavaScript）。html是一种用于定义内容结构的标记语言，它不是
+    编程语言，任何一个网页都是一个 HTML文档。HTML与css，JavaScript是构架Web程序的三要素<p>
+</pre> 
+</div>
+<div class="example-1">
+<pre>
+    <h2>2 HTML元素</h2>  
+    <p>HTML使用标记来注明文本，图片和其它内容，使其容易在游览器中显示，在HTML包含了很多规定的元素，他们是可以嵌套，又由一对标签（tag）组成</p>
+    <ul>
+        <li>开始标签：包含元素名称，被对角包括，元素从此开始</li>
+        <li>结束标签：包含元素名称，也被对角括号包括，元素从这里结束</li>
+        <li>内容：输入文本本身</li>
+        <li>元素：由以上三种元素</li>
+      </ul>
+      <h2>HTML文档架构</h2>
+      <pre class="example-7"><xmp>     1.<!DOCTYPE html>: 声明了文档类型  2 <html></html>：此元素包裹整个完整页面，其它元素都镶嵌在其中  3<head></head>: 是一个容器元素，包含了所有在HTML也面中，但不想直接显示在主页面的
+     内容,如关键字，css样式，字符集声明等  4 <meta charset="utf-8">: 设置了文档使用UTF8编码，基本上能识别我们放上去的文本内容  5  <link rel=""  href=""  type="">  指定页面图标  6  <title>
+     </title>:设置页面标题，出现在游览器标签和收藏夹中。 7  <body></body>:次元素包含了在页面中看到所有内容，包括文本，图片等</xmp>
+    </pre>
+    </pre>
+</div>
+<div>
+    <pre> 
+        <h2 >文本格式</h2>
+        <p>如图为我们的文本格式    <img src="./images/Screenshot_20210619_183540.jpg" width="500" height="260" ></p>
+    </pre>
+</div>
+<pre>
+    <h2>超链接</h2>
+    <a href="https://cyf20001028.github.io/cyf200010282.io" target="_blank">个人github网址</a>
+    <img src="./images/wq.png" >
+    <ol class="example-8">
+        <li>href:即为要跳转去的网址URL</li>
+        <li>target:属性为_blank指是在新页面打开超链接，若为_self则是在当前页面打开_self</li>
+        <li>超链接标签的内容也可以是图片</li>
+      </ol>
+</pre>
+<pre class="example-1">
+    <h2>图片及文件路径</h2>
+    <p>插入代码  <img src="./images/lemur-6280377_1920.jpg" width="200"  height="200"></p>
+    <img src="./images/wq1.png" >   
+</pre>
+<div>
+    <h2>表格、列表、表单（Table/list/Form)</h2>
+    <p><xmp>        1当我们需要表格整理时，使用<table></table>,其中<tr>表示行，<td>表示行中单元，<th>表示表头的单元；
+        2 HTML列表和markdown一样分为有序列表和无序列表，无序列表使用<ul>标签，有序列表使用<ol>标签；
+        3表单：但我们需要获取一些特定信息时，就可以使用表单；
+        样式如下图：
+    </xmp></p>
+    <img src="./images/wq3.png" width="500"  height="500">
+</div>
+<div class="container">
+    <!--Grid row 1-->
+    <div class="row">
+      <!--Grid column 1-->
+      <div class="col-md-7">
+        <table>
+            <tr>
+              <th>姓名</th>
+              <th>身份证</th>
+              <th>性别</th>
+            </tr>
+            <tr>
+              <td>张三</td>
+              <td>12321</td>
+              <td>5</td>
+            </tr>
+            <tr>
+              <td>王五</td>
+              <td>12312</td>
+              <td>6</td>
+            </tr>
+          </table>
+      </div>
+      <div class="col-md-5">
+        <ul>
+            <li>矩形</li>
+            <li>三角形</li>
+            <li>圆形</li>
+          </ul>
+      </div>
+    </div>
+   </div>
+   <script type="text/javascript" src="MDB-Pro-4.12/js/jquery.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="MDB-Pro-4.12/js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="MDB-Pro-4.12/js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="MDB-Pro-4.12/js/mdb.min.js"></script>
+  <!-- Your custom scripts (optional) -->
+  <script type="text/javascript"></script>
+
+</body>
+</html>
